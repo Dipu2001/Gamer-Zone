@@ -62,4 +62,71 @@ nav .menu{
 .social-accounts i{
     font-size: 20px;
 }
+/* banner section styles */
+.banner-section{
+    background: url("images/Group\ 14.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 0px 160px;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+.banner-text h1{
+    font-size: 75px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text h2{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.banner-text h4{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 10px;
+    
+}
+
+.banner-text button{
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.banner-text .btn1{
+    color: #FFF;
+    font-size: 16px;
+    padding: 15px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #FF42A5;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.banner-text .btn2{
+    color: #FFF;
+    font-size: 16px;
+    padding: 15px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #4EC5F7;
+    border: none;
+    border-radius: 30px;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
 
