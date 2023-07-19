@@ -197,7 +197,7 @@ nav .menu{
 }
 /* play instantly section styles */
 .play-section{
-    padding: 20px 160px;
+    padding: 20px 160px 50px 160px;
 }
 .play-instantly-content{
     display: flex;
