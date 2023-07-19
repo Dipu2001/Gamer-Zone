@@ -20,19 +20,16 @@ nav{
 nav .title{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 }
 .title h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     
 }
 .title h1 span{
     color: #FF42A5;
     
-}
-.title i{
-    font-size: 50px;
 }
 nav .menu{
     display: flex;
@@ -41,9 +38,9 @@ nav .menu{
 .menu a{
     text-decoration: none;
     color: #3C354F;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 
 }
 .menu .social-accounts{
@@ -56,11 +53,11 @@ nav .menu{
 }
 .social-accounts span{
     color: #3C354F;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 .social-accounts i{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 /* banner section styles */
 .banner-section{
@@ -73,10 +70,13 @@ nav .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 200px;
+    
+}
+.banner-text{
+    width: 50%;
 }
 .banner-text h1{
-    font-size: 75px;
+    font-size: 5rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -85,13 +85,13 @@ nav .menu{
 }
 .banner-text h2{
     color: #0B0223;
-    font-size: 35px;
+    font-size: 2.50rem;
     font-weight: 600;
     
 }
 .banner-text h4{
     color: #534C64;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     text-transform: lowercase;
     margin-top: 10px;
@@ -105,24 +105,27 @@ nav .menu{
 }
 .banner-text .btn1{
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 15px 30px;
     font-weight: 600;
     text-transform: uppercase;
     background-color: #FF42A5;
     border: none;
-    border-radius: 30px;
+    border-radius: 1.8rem;
     margin-right: 10px;
 }
 .banner-text .btn2{
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 15px 30px;
     font-weight: 600;
     text-transform: uppercase;
     background: #4EC5F7;
     border: none;
-    border-radius: 30px;
+    border-radius: 1.8rem;
+}
+.banner-img {
+    width: 50%;
 }
 .banner-img img{
     width: 100%;
@@ -133,15 +136,15 @@ nav .menu{
 }
 .funny-video-content .text{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 1.9rem;
 }
 .funny-video-content .text h1{
     color: #0B0223;
-    font-size: 40px;
+    font-size: 2.2rem;
     font-weight: 700;
     
 }
-.text h1 span{
+.color{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -149,22 +152,182 @@ nav .menu{
 
 }
 .funny-videos{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    column-gap: 20px;
-}
-.funny-videos .videos{
-    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
 }
 .funny-videos img{
     width: 100%;
 }
 .funny-video-content p{
     color: #534C64;
-    font-size: 15px;
+    font-size: 0.95rem;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 1rem;
+    width: 100%;
+}
+/* play instantly section styles */
+.play-section{
+    padding: 50px 160px;
+}
+.play-instantly-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    gap: 100px;
+}
+.play-instantly-content .text{
+    width: 50%;
+}
+.play-instantly-content .text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.play-instantly-content .text p{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.play-instantly-content .imgs{
+    width: 50%;
+    position: relative;
+}
+.imgs .img1{
+    width: 85%;
 }
 
+/* game category section */
+.game-category{
+    padding: 100px 160px;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    
+}
+.games .game{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 5px;
+}
+.games .game h4{
+    color: #0B0223;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.game:hover h4{
+    color: #F948B2;
+    cursor: pointer;
 
+}
+.game:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 30px;
+}
+/* footer secttion style */
+footer{
+    padding: 100px 160px;
+    background-color: #0B0223;
+}
+.footer{
+    color: #FFF;
+    text-align: center;
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-bottom: 3rem;
+}
+.title1 h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.footer a{
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 3rem;
+}
+.footer .menu-link{
+    margin-bottom: 3rem;
+}
+.footer .settings{
+    margin-bottom: 3rem;
+}
+.footer span{
+    color: #FF42A5;
+   
 
+}
+
+/* media query for small device */
+@media screen and (max-width:576px)  {
+    html{
+        font-size: 11px;
+    }
+    /* nav and banner */
+    nav{
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+    nav .menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* banner */
+    .banner-section{
+        padding: 20px 10px;
+        background-size: 85%;
+        background-position: bottom;
+    }
+    
+    .banner-content{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 130px;
+        
+    }
+    .banner-content .banner-img{
+        width: 80%;
+    }
+    .banner-content .banner-text{
+        width: 70%;
+        
+    }
+    /* funny videos */
+    .funny-video-section{
+        padding: 20px 10px;
+    }
+    .funny-videos{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .video{
+        width: 50%;
+    }
+
+    /* game category */
+    .game-category{
+        padding: 20px 10px;
+    }
+    .game{
+        width: 100%;
+    }
+    .game img{
+        width: 20%;
+    }
+    
+    .game-category .games{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
