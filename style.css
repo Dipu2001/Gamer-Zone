@@ -168,11 +168,12 @@ nav .menu{
 }
 /* play instantly section styles */
 .play-section{
-    padding: 50px 160px;
+    padding: 20px 160px;
 }
 .play-instantly-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: right;
     gap: 100px;
 }
@@ -180,13 +181,13 @@ nav .menu{
     width: 50%;
 }
 .play-instantly-content .text h1{
-    font-size: 40px;
+    font-size: 2.25rem;
     font-weight: 700;
     color: #0B0223;
 }
 .play-instantly-content .text p{
     color: #534C64;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 25px;
     margin-top: 20px;
@@ -196,7 +197,14 @@ nav .menu{
     position: relative;
 }
 .imgs .img1{
-    width: 85%;
+    width: 90%;
+
+}
+.imgs .img2{
+    position: absolute;
+    width: 40%;
+    bottom: -15%;
+    right: 70%;
 }
 
 /* game category section */
@@ -289,6 +297,7 @@ footer{
     color: #FF42A5;
     margin-right: 2rem;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 
@@ -302,6 +311,7 @@ footer{
         flex-direction: column;
         padding: 20px 10px;
         gap: 20px;
+        box-shadow: none;
     }
     nav .menu{
         flex-direction: column;
@@ -338,6 +348,21 @@ footer{
     }
     .video{
         width: 50%;
+    }
+    /* play instantly  */
+    .play-section{
+        padding: 20px 20px 50px 20px;
+    }
+    .play-instantly-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .play-instantly-content .text{
+        width: 100%;
+    }
+    .play-instantly-content .imgs{
+        width: 70%;
     }
 
     /* game category */
