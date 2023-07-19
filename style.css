@@ -48,7 +48,7 @@ nav .menu{
     background: rgba(11, 2, 35, 0.10);
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
     padding: 10px 10px;
 }
 .social-accounts span{
@@ -425,5 +425,33 @@ footer{
     gap: 1.5rem;
     }
     
+}
+
+/* media query for medium device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    html{
+        font-size: 12px;
+    }
+    nav{
+        padding: 20px 30px;
+    }
+    nav .menu a{
+        margin-right: 10px;
+    }
+    .banner-section{
+        padding: 20px 40px;
+    }
+    .funny-video-section{
+        padding: 20px 40px;
+    }
+    .play-section{
+        padding: 20px 40px;
+    }
+    .game-category{
+        padding: 50px 40px;
+    }
+    footer{
+        padding: 20px 8px;
+    }
 }
 
